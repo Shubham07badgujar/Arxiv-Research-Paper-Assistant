@@ -1,0 +1,143 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+
+# =========================
+# Streamlit
+# =========================
+
+.streamlit/
+
+# Streamlit cache
+.streamlit/cache/
+
+
+# =========================
+# Models / ML Files
+# =========================
+
+*.pt
+*.pth
+*.bin
+*.onnx
+*.h5
+*.pkl
+*.pickle
+
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+
+# =========================
+# Vector Database / Embeddings
+# =========================
+
+vectors/
+vectorstore/
+embeddings/
+
+*.faiss
+*.index
+
+
+# =========================
+# Downloaded Papers
+# =========================
+
+downloaded_papers/
+*.pdf
+
+
+# =========================
+# Database
+# =========================
+
+neo4j/
+*.db
+*.sqlite
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+
+# =========================
+# OS Generated
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+*.code-workspace
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.cache
+
+
+# =========================
+# Build files
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+
+# =========================
+# Secrets
+# =========================
+
+secret*
+keys*
+credentials*
