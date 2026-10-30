@@ -53,9 +53,12 @@ Ensure you have the following installed:
 
 ### Environment Variables
 
-Make sure to set the required environment variables before running the app:
+Copy `.env.example` to `.env` and fill in the values before running the app:
 
-- `groq_api_key`: Your API key for using the Groq LLM.
+- `GROQ_API_KEY`: Your API key for using the Groq LLM.
+- `NEO4J_URI`: Your Neo4j connection URI (e.g. `neo4j://localhost:7687` or a Neo4j Aura URI).
+- `NEO4J_USER`: Your Neo4j username.
+- `NEO4J_PASSWORD`: Your Neo4j password.
 
 ## Key Components
 
@@ -71,6 +74,8 @@ Make sure to set the required environment variables before running the app:
 .
 ├── app.py                   # Main application script
 ├── requirements.txt         # Python dependencies
+├── .env.example             # Template for required environment variables
+├── downloaded_papers/       # PDFs downloaded at runtime (gitignored)
 └── README.md                # Project documentation
 ```
 
